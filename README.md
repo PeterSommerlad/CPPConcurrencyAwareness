@@ -1,2 +1,2 @@
 # CPPConcurrencyAwareness
-Teaching material for CERN training "ntroduction to Concurrency-aware C++ "
+Teaching material for CERN training "Introduction to Concurrency-aware C++"
