@@ -1,0 +1,20 @@
+<testsuites>
+	<testsuite name="AllTests" tests="16">
+		<testcase classname="AllTests" name="CounterDefaultIsZeroValue"/>
+		<testcase classname="AllTests" name="CounterIncrementedIsOneValue"/>
+		<testcase classname="AllTests" name="CounterCanBeComparedAndValueGivenAtConstruction"/>
+		<testcase classname="AllTests" name="CounterCanBeComparedLess"/>
+		<testcase classname="AllTests" name="CounterCanBeComparedLessEqual"/>
+		<testcase classname="AllTests" name="CounterCanBeComparedGreater"/>
+		<testcase classname="AllTests" name="CounterCanBeComparedGreaterEqual"/>
+		<testcase classname="AllTests" name="CounterUDL"/>
+		<testcase classname="AllTests" name="simpletest::CounterDefaultIsZeroValue"/>
+		<testcase classname="AllTests" name="simpletest::CounterIncrementedIsOneValue"/>
+		<testcase classname="AllTests" name="simpletest::CounterCanBeComparedAndValueGivenAtConstruction"/>
+		<testcase classname="AllTests" name="simpletest::CounterCanBeComparedLess"/>
+		<testcase classname="AllTests" name="simpletest::CounterCanBeComparedLessEqual"/>
+		<testcase classname="AllTests" name="simpletest::CounterCanBeComparedGreater"/>
+		<testcase classname="AllTests" name="simpletest::CounterCanBeComparedGreaterEqual"/>
+		<testcase classname="AllTests" name="simpletest::CounterUDL"/>
+	</testsuite>
+</testsuites>

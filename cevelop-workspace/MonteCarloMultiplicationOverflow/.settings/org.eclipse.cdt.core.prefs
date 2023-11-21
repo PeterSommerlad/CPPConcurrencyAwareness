@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.227251292/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.227251292/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.227251292/PATH/value=/opt/homebrew/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.227251292/append=true
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.227251292/appendContributed=true
+environment/project/cdt.managedbuild.config.macosx.exe.release.763452453/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.macosx.exe.release.763452453/PATH/operation=append
+environment/project/cdt.managedbuild.config.macosx.exe.release.763452453/PATH/value=/usr/bin\:/bin\:/usr/sbin\:/sbin
+environment/project/cdt.managedbuild.config.macosx.exe.release.763452453/append=true
+environment/project/cdt.managedbuild.config.macosx.exe.release.763452453/appendContributed=true
