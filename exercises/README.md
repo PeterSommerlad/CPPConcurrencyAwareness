@@ -98,3 +98,11 @@ Example strings I search for in code:
 Also checking for the use of synchronization primitives can be helpful. For example, in Rec and Goudi sources, that I checked out, I found 91 occurences of `scoped_lock`, 4 `unique_lock` and 24 of the now obsolete `lock_guard`, but also 238 uses of `mutex`.
 
 When doing such counts it is also important to look at the found source to check if the match was not in a comment or larger word.
+
+## Find problematic stuff
+
+https://gitlab.cern.ch/lhcb/LHCb/-/blob/8565ebd962f24faece0c66400489c517601f91cc/Muon/MuonDAQ/src/components/MuonRawInUpgradeToHits.cpp#L170
+
+https://gitlab.cern.ch/lhcb/LHCb/-/blob/8565ebd962f24faece0c66400489c517601f91cc/Muon/MuonDAQ/src/components/MuonRawInUpgradeToHits.cpp#L588
+
+https://gitlab.cern.ch/lhcb/LHCb/-/blob/8565ebd962f24faece0c66400489c517601f91cc/Muon/MuonDAQ/src/components/MuonRawInUpgradeToHits.cpp
