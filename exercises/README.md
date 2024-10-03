@@ -99,10 +99,14 @@ Also checking for the use of synchronization primitives can be helpful. For exam
 
 When doing such counts it is also important to look at the found source to check if the match was not in a comment or larger word.
 
-## Find problematic stuff
+## Find problematic stuff in old code
+
+Some of the problematic usages of a counter have been fixed in the meantim. Nevertheless, tests revealed that the code might have produced erroneous results in the past that was interpreted as physics effects:
 
 https://gitlab.cern.ch/lhcb/LHCb/-/blob/8565ebd962f24faece0c66400489c517601f91cc/Muon/MuonDAQ/src/components/MuonRawInUpgradeToHits.cpp#L170
 
 https://gitlab.cern.ch/lhcb/LHCb/-/blob/8565ebd962f24faece0c66400489c517601f91cc/Muon/MuonDAQ/src/components/MuonRawInUpgradeToHits.cpp#L588
 
-https://gitlab.cern.ch/lhcb/LHCb/-/blob/8565ebd962f24faece0c66400489c517601f91cc/Muon/MuonDAQ/src/components/MuonRawInUpgradeToHits.cpp
+another problematic situation:
+
+https://gitlab.cern.ch/lhcb/Rec/-/blob/d3c99f026b3944cce5d7bce125ce5d8e45112629/Phys/FlavourTagging/src/BTaggingTool.cpp#L601
